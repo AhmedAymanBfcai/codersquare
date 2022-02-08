@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.ts"
   },
-  "author": "@AHMED_BFCAI_20",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
