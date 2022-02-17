@@ -30,4 +30,9 @@ export interface Comment {
   postedAt: number;
 }
 
-export type ExpressHandler<Req, Res> = RequestHandler<string, Partial<Res>, Partial<Req>, any>;
+export type ExpressHandler<Req, Res> = RequestHandler<
+  string,
+  Partial<Res>,
+  Partial<Req>,
+  any
+>;

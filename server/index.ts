@@ -19,11 +19,11 @@ import { signInHandler, signUpHandler } from './handlers/userHandler';
 
   app.use(requestLoggerMiddleware);
 
-  app.get('/v1/posts', asyncHandler(listPostsHandler));
-  app.post('/v1/posts', asyncHandler(createPostHandler));
+  // app.get('/v1/posts', asyncHandler(listPostsHandler));
+  // app.post('/v1/posts', asyncHandler(createPostHandler));
 
-  app.post('/v1/signup', asyncHandler(signUpHandler));
-  app.post('/v1/signin', asyncHandler(signInHandler));
+  // app.post('/v1/signup', asyncHandler(signUpHandler));
+  // app.post('/v1/signin', asyncHandler(signInHandler));
 
   const errHandler: ErrorRequestHandler = (err, req, res, next) => {
     console.error('Uncaught exception:', err);
